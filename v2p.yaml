@@ -23,7 +23,7 @@ mode: rule
 #log-level: debug
 
 # clash 的 RESTful API
-external-controller: 192.168.2.88:8100
+external-controller: 192.168.2.88:8101
 #external-ui: ui
 # Secret for the RESTful API (optional)
 # Authenticate by spedifying HTTP header `Authorization: Bearer ${secret}`
@@ -34,7 +34,7 @@ proxies:
   - name: v2p
     type: http
     server: 192.168.2.88
-    port: 8100
+    port: 8101
     #tls: true
     #skip-cert-verify: true
     #sni: host_name
